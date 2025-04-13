@@ -84,6 +84,43 @@
     </div>
 </section>
 
+<section class="py-12 px-4 md:px-12 max-w-7xl mx-auto">
+    <div class="flex flex-col md:flex-row items-center">
+        <div class="md:w-1/2 mb-8 md:mb-0 order-2 md:order-1">
+            <img src="images/testimonial-section.png" alt="Happy Customer" class="rounded-lg w-full h-auto object-cover">
+        </div>
+        <div class="md:w-1/2 md:pl-12 order-1 md:order-2">
+            <span class="text-primary uppercase font-medium text-sm">TESTIMONIALS</span>
+            <h2 class="text-3xl font-bold mt-2 mb-6">What Our Customers Say</h2>
+            <div class="mb-6">
+                <div class="flex mb-2">
+                    <i class="fas fa-star text-yellow-400"></i>
+                    <i class="fas fa-star text-yellow-400"></i>
+                    <i class="fas fa-star text-yellow-400"></i>
+                    <i class="fas fa-star text-yellow-400"></i>
+                    <i class="fas fa-star text-yellow-400"></i>
+                </div>
+                <p class="text-gray-600 italic text-lg mb-6">
+                    "The pastries here are absolutely amazing! Every bite is filled with love and care. 
+                    I can't start my day without their croissants. Definitely the best bakery in town!"
+                </p>
+                <div class="flex items-center mb-3">
+                    <div class="flex -space-x-2 mr-4">
+                        <img src="images/customer-1.png" alt="Customer 1" class="w-10 h-10 rounded-full object-cover border-2 border-white">
+                        <img src="images/lunacustumer.png" alt="Customer 2" class="w-10 h-10 rounded-full object-cover border-2 border-white">
+                        <img src="images/ivocustomer.png" alt="Customer 3" class="w-10 h-10 rounded-full object-cover border-2 border-white">
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-star text-yellow-400 mr-2"></i>
+                        <span class="font-medium mr-2">4.9</span>
+                        <span class="text-gray-500">(18.6k reviews)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Services Section -->
 <section id="services" class="py-12 px-4 md:px-12 max-w-7xl mx-auto">
     <div class="flex flex-col md:flex-row">
