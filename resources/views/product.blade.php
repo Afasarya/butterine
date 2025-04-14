@@ -33,7 +33,7 @@
                 <p class="mt-4 text-gray-600">{{ $product->description }}</p>
                 
                 <div class="mt-8">
-                    <a href="{{ $whatsappUrl }}" target="_blank" class="inline-block bg-primary text-white font-bold py-3 px-6 rounded-lg hover:bg-primary/90 transition">
+                    <a href="https://api.whatsapp.com/send/?phone=085846695685&text&type=phone_number&app_absent=0" target="_blank" class="inline-block bg-primary text-white font-bold py-3 px-6 rounded-lg hover:bg-primary/90 transition">
                         <i class="fab fa-whatsapp mr-2"></i> Order via WhatsApp
                     </a>
                     <a href="{{ route('home') }}#menu" class="inline-block ml-4 text-primary font-bold hover:underline">
