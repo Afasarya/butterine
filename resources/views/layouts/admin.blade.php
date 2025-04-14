@@ -67,7 +67,7 @@
         <div class="p-6">
             <div class="flex items-center mb-10">
                 <div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-white mr-2">
-                    <span class="text-sm font-bold">B</span>
+                    <img src="{{ asset('images/logo.png') }}" alt="Butterine" class="w-10 h-10 mr-1">
                 </div>
                 <h1 class="text-xl font-semibold">butterine</h1>
             </div>

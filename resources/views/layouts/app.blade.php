@@ -40,9 +40,7 @@
         <nav class="flex justify-between items-center max-w-7xl mx-auto">
             <div class="flex items-center">
                 <a href="{{ route('home') }}" class="flex items-center">
-                    <div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-white mr-1">
-                        <span class="text-sm font-bold">B</span>
-                    </div>
+                    <img src="{{ asset('images/logo.png') }}" alt="Butterine" class="w-12 h-12 mr-2 object-contain">
                 </a>
                 <ul class="hidden md:flex ml-10 space-x-8">
                     <li><a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'text-primary' : 'text-gray-700 hover:text-primary transition' }} font-medium">Home</a></li>
@@ -93,9 +91,7 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
                 <div>
                     <a href="{{ route('home') }}" class="flex items-center mb-6">
-                        <div class="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white mr-1">
-                            <span class="text-sm font-bold">B</span>
-                        </div>
+                        <img src="{{ asset('images/logo.png') }}" alt="Butterine" class="w-10 h-10 mr-1">
                     </a>
                     <p class="text-gray-400 text-sm mb-6">
                         Savor the artistry where every dish is a culinary masterpiece.

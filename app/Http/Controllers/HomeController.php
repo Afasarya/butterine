@@ -15,6 +15,17 @@ class HomeController extends Controller
         
         return view('home', compact('categories', 'featuredProducts'));
     }
+
+    public function category($id)
+{
+    // Find the category by ID
+    $category = Category::findOrFail($id);
+    
+    // Get all products in this category
+    $products = Product::where('category_id', $id)->paginate(12);
+    
+    return view('categories-show', compact('category', 'products'));
+}
     
     public function product($id)
     {

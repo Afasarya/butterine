@@ -32,7 +32,7 @@
     </div>
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
         @foreach($categories as $category)
-        <div class="bg-white rounded-xl p-4 flex flex-col items-center shadow-sm hover:shadow-md transition">
+        <a href="{{ route('category.show', $category->id) }}" class="bg-white rounded-xl p-4 flex flex-col items-center shadow-sm hover:shadow-md transition">
             <div class="w-24 h-24 rounded-full bg-red-200 flex items-center justify-center mb-3">
                 @if($category->image)
                 <img src="{{ asset('storage/' . $category->image) }}" alt="{{ $category->name }}" class="w-16 h-16 object-cover rounded-full">
@@ -42,7 +42,7 @@
             </div>
             <h3 class="font-medium">{{ $category->name }}</h3>
             <p class="text-xs text-gray-500">({{ $category->item_count }} items)</p>
-        </div>
+        </a>
         @endforeach
     </div>
 </section>
